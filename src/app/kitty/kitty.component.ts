@@ -8,7 +8,7 @@ import { GreetingService } from '../greeting.service';
 })
 export class KittyComponent implements OnInit {
 
-  constructor(private foo: GreetingService) { }
+  constructor(public foo: GreetingService) { }
 
   ngOnInit(): void {
   }

@@ -8,7 +8,7 @@ import { GreetingService } from '../greeting.service';
 })
 export class WorldComponent implements OnInit {
 
-  constructor(private greetingSvc: GreetingService) { }
+  constructor(public greetingSvc: GreetingService) { }
 
   ngOnInit(): void {
   }
